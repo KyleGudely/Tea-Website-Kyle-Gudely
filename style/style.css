@@ -28,8 +28,13 @@ h1, h2, h3
   padding: 15px 0 5px 0;
   color: #000;}
 
+h1
+{font: normal 200% 'century gothic', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+
 h2
 { font-size: 160%;
+	text-align: center;
+	text-transform: capitalize;
   padding: 9px 0 5px 0;
   color: #009FBC;}
 
@@ -329,3 +334,6 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+.flt-rgt {
+	float: right;
+}

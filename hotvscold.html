@@ -7,16 +7,20 @@
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" />
+<script src="Scripts/swfobject_modified.js"></script>
 </head>
 
 <body>
   <div id="main">
     <div id="header">
       <div id="logo">
+        <img src="images/Tea logo.jpg" width="125" class="logo" alt="Tea Mug Logo">
         <div id="logo_text">
+			
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">The Benefits<span class="logo_colour"> of Tea</span></a></h1>
-          <h2>An informational website on the types and essiantials of tea making.</h2>
+          <h1><a href="index.html" class="left"><span class="logo_colour logo_text">The Benefits Of Tea Making</span></a></h1>
+          <h2 class="logo_text left">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; An informational website on the types and essiantials of tea making.</h2>
+          <p>&nbsp;</p>
         </div>
       </div>
       <div id="menubar">
@@ -83,25 +87,53 @@
 		 <h2>Hot Tea Steeping</h2>
         <p>Hot tea is generally made for breakfast although with some types of tea like chamomile it's generally drank&nbsp; before sleep or after a long project to relax. Hot tea has been a tradition in England since 1717 by Thomas Twinings (the person who Twinings Tea is named after). The steeping method and style has not changed a lot over the years but heres the simpliest steps of making hot tea:</p>
         <img src="images/hot tea with steam.jpg" alt="" width="199" height="300" class="flt-rgt"/>
-        <ul>
+        <ol>
 			
-          <li>Dried Fruits</li>
-          <li>Flowers</li>
-          <li>Spices</li>
-		</ul>
-        
+          <li>Boil water between 200&deg; and 205&deg; Farenhiet&nbsp;&nbsp;</li>
+          <li>Add tea bag and water&nbsp;</li>
+          <li>Let the tea steep for 5-7 minutes&nbsp;</li>
+		</ol>
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="350" height="200" id="FlashID" title="Iced Tea Pouring">
+          <param name="movie" value="TEA POURING.swf">
+          <param name="quality" value="high">
+          <param name="wmode" value="opaque">
+          <param name="swfversion" value="6.0.65.0">
+          <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+          <param name="expressinstall" value="Scripts/expressInstall.swf">
+          <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+          <!--[if !IE]>-->
+          <object type="application/x-shockwave-flash" data="TEA POURING.swf" width="1920" height="1080">
+            <!--<![endif]-->
+            <param name="quality" value="high">
+            <param name="wmode" value="opaque">
+            <param name="swfversion" value="6.0.65.0">
+            <param name="expressinstall" value="Scripts/expressInstall.swf">
+            <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+            <div>
+              <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+            </div>
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object>
 		  
-		<h2>How to make Iced Tea</h2>
+<h2>How to make Iced Tea</h2>
         <p>Iced tea has been around for as long as hot tea has. Mainly because the steeping methods are the same you just add in ice at the end. Obviously to make iced tea you need ice,&nbsp; a refridgerator , or a cold climate , but here are the steps you should follow:&nbsp;</p>
-        <ul>
-          <li>Dried Fruits</li>
-          <li>Flowers</li>
-          <li>Spices</li>
+		  
+        <ol>
+          <li>Boil water between 200&deg; and 205&deg; Farenhiet&nbsp;&nbsp;</li>
+          <li>Add tea bags and water to appropriate sized pitcher&nbsp;</li>
+          <li>Let the tea steep for 5-7 minutes&nbsp;</li>
+			<li>Add lemon and sugar to taste</li>
+			<li>Let chill inside a refrigerator</li>
+			<li>Serve with ice and enjoy</li>
           <img src="images/iced tea pitcher.jpg" width="450" height="338" alt=""/>
-		</ul>
-		  <h2>Oldschool Sun Tea</h2>
-		  <p>Sun tea was the original</p>
+		</ol>
+		  <h2>Backup Animation Video</h2>
+		  
       </div>
+		<video controls autoplay loop src="videos/Animation recording backup.mp4" width="500"></video>
     </div>
     <div id="content_footer"></div>
     <div id="footer">
@@ -109,5 +141,8 @@
       <p>Copyright &copy; simplestyle_banner | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">HTML5 Web Templates</a></p>
     </div>
   </div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+  </script>
 </body>
 </html>

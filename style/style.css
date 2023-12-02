@@ -57,10 +57,12 @@ h5, h6
 a, a:hover
 { outline: none;
   text-decoration: underline;
-  color: #AEB002;}
+  color: #AEB002;
+	text-align: center;}
 
 a:hover
-{ text-decoration: none;}
+{ text-decoration: none;
+ text-align: center;}
 
 blockquote
 { margin: 20px 0; 
@@ -120,7 +122,7 @@ ol li
   background: transparent;}
 
 #logo #logo_text 
-{ position: absolute; 
+{ position: absolute;
   top: 10px;
   left: 0;}
 
@@ -134,7 +136,8 @@ ol li
 { padding: 22px 0 0 0;
   color: #FFF;
   letter-spacing: 0.1em;
-  text-decoration: none;}
+  text-decoration: none;
+  float: right;}
 
 #logo_text h1 a .logo_colour
 { color: #E4EC04;}
@@ -142,13 +145,15 @@ ol li
 #logo_text a:hover .logo_colour
 { color: #FFF;}
 
+
 #logo_text h2
 { font-size: 120%;
+  align-self: center;
   padding: 4px 0 0 0;
   color: #999;}
 
 #menubar
-{ width: 880px;
+{ width: 680px;
   height: 46px;} 
 
 ul#menu
@@ -336,4 +341,10 @@ table tr td
   border-top: 1px solid #FFF;}
 .flt-rgt {
 	float: right;
+}
+.logo {
+	margin-top: 15px
+}
+.logo_text
+{margin-right: 100px;
 }
